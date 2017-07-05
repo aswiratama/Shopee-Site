@@ -1,0 +1,48 @@
+.advantage{
+    background: #ffebe6;
+}
+
+.criteria{
+    background: #ffebe6;
+}
+
+.top-banner{
+    display: block;
+    margin: 0 auto;
+    width: 90em;
+}
+
+.image-criteria{
+    display: block;
+    margin: 0 auto;
+    width:25em;
+    height:15em;
+}
+.image-how{
+    display: block;
+    margin: 0 auto;
+    width:25em;
+    height:40em;
+}
+.image-advantage{
+    display: block;
+    margin: 0 auto;
+    width:25em;
+    height:20em;
+}
+.emphasis{
+    color:orangered;
+    font-weight: bold;
+}
+.imagelink{
+    display: block;
+    margin: 0 auto;
+    width:40em;
+    height:5em;
+    align-content: center;
+
+}
+
+td{
+    vertical-align: top;
+}

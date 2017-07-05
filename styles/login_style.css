@@ -1,0 +1,68 @@
+
+#boxForm
+{
+  width:340px;
+  
+  
+  position:relative;
+  left:50vw;
+  margin-left:-170px;
+}
+
+#boxForm form
+{
+  margin-top:20px;
+  text-align:center;
+}
+
+.text
+{
+  padding:10px;
+  width:250px;
+  margin-top:10px;
+  border-style:none;
+  border-bottom-style:solid;
+  font-family: 'Montserrat', sans-serif;
+  font-size:15px;
+  color:black;
+}
+
+.text:focus
+{
+  background-color:rgba(255,255,255,0.2);
+  border-style:none;
+  outline: none; /* to delete blue outline*/
+}
+
+#pwd
+{
+  margin-bottom:5px;
+}
+
+#pwd
+{
+  margin-bottom:15px;
+}
+
+.button
+{
+  padding:10px;
+  width:250px;
+  
+  /* Background par colorzilla.com */
+  background: orangered;
+
+  font-family: 'Montserrat', sans-serif;
+  
+  font-size:15px;
+  border-style:none;
+  cursor:pointer;
+  
+  color:white;
+  font-weight:bold;
+  left:50vw;
+}
+
+.header{
+box-shadow:1px 1px 1px gray;
+}

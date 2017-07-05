@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.title-class {
+    font-family: Arial, Helvetica, sans-serif;
+	padding: 20px;
+	color: orangered;
+	font-size: 150%;
+    margin-top: 0px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+p emp{
+    color: orangered;
+    font-weight: bold;
+}
+
+p steps{
+    text-align: left;
+}

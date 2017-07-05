@@ -1,0 +1,73 @@
+body{
+    background-color: #f6f6f6;
+}
+
+.text
+{
+  padding:10px;
+  width:250px;
+  margin-top:10px;
+  border-style:none;
+  border-bottom-style:solid;
+  font-family: 'Montserrat', sans-serif;
+  font-size:15px;
+  color:black;
+}
+
+.text:focus
+{
+  background-color:rgba(255,255,255,0.2);
+  border-style:none;
+  outline: none; /* to delete blue outline*/
+}
+
+td{
+    background-color:#FFFFFF;
+    padding: 1.5em;
+}
+
+.button
+{
+  padding:10px;
+  width:250px;
+  
+  /* Background par colorzilla.com */
+  background: orangered;
+
+  font-family: 'Montserrat', sans-serif;
+  
+  font-size:15px;
+  border-style:none;
+  cursor:pointer;
+  
+  color:white;
+  font-weight:bold;
+  left:50vw;
+}
+
+.steps{
+    color: #1acb61;
+    text-align: left;
+}
+
+
+
+.image-upload > input
+{
+    display: none;
+}
+
+tandc{
+    width:1.5em;
+    height: 1.5em;
+    align-content: center;
+}
+
+img{
+    margin-left: 15em;
+    left: 5em;
+}
+
+td{
+    vertical-align: top;
+}
