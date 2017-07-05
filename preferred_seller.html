@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Language" content="en-us" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/preferred_style.css" />
+    </head>
+        <title>PreferredSeller</title>
+<body>
+<div id="header" class="header">
+    <a id="back" href="index.html"><img id="back" src="res/back button.png" width=25em, height=25em></a>
+</div>
+<div id="secondheader" class="secondheader">
+    <p>Bergabunglah dalam program Penjual Terpilih Shopee! Isi form di bawah ini &amp; lampirkan foto diri beserta KTP</p>
+</div>
+<form id=PreferredSeller>
+    <table align="center" class="auto-style1" style="width: 100%; outline-width: 0; outline-style: none; outline-color: invert; height: 2.5em">
+        <tr>
+            <td colspan="2">
+                <div id="step1" class="steps">
+                    <strong>LANGKAH 1</strong>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+<p><steps>Masukkan nomor KTP Anda</steps></p>
+            </td>
+            <td>
+    <input class='text' type='username' id='nomorKTP' placeholder='No. KTP' required>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table align="center" class="auto-style1" style="width: 100%; outline-width: 0; outline-style: none; outline-color: invert; height: 2.5em">
+        <tr>
+            <td colspan="2">
+<div id="step2" class="steps">
+    <strong>LANGKAH 2</strong>
+</div>
+</td>
+</tr>
+  <div id="boxForm">
+          <tr>
+              <td>
+<div class="image-upload">
+  <label for="fotodiri">
+        <img src="res/upload.jpg"/>
+    </label>
+    <input id="fotodiri" type="file" accept="image/jpg, image/png"/>
+    </div>
+    <p>Upload foto diri Anda</p>
+    </td>
+    <td>
+        <div class="image-upload">
+    <label for="fotoktp">
+        <img src="res/upload.jpg"/>
+    </label>
+    <input id="fotoktp" type="file" accept="image/jpg, image/png">
+    <p>Upload foto KTP Anda </p>
+    </div>
+    <br>
+    </td>
+          </tr>
+          <tr>
+              <td colspan="2">
+                  <input type="checkbox" name="tandc" value="true">Saya setuju dengan syarat dan ketentuan program penjual Terpilih Shopee.
+      </table>
+    <input class='button' type='submit' value='Register'>
+  </form>
+  
+    <script src="js/index.js"></script>
+</html>
