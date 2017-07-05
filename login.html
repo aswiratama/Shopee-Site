@@ -2,11 +2,9 @@
     <head>
         <meta http-equiv="Content-Language" content="en-us" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-        <title>Enroll As</title>
         
         <link rel="stylesheet" type="text/css" href="styles/style.css" />
         <link rel="stylesheet" type="text/css" href="styles/login_style.css" />
-        <script src="js/script.js"></script>
         <script src="js/login_script.js"></script>
     </head>
         <title>Login</title>
@@ -15,7 +13,7 @@
     <a id="back" href="index.html"><img id="back" src="res/back button.png" width=25em, height=25em></a>
 </div>
   <div id="boxForm">
-  <form id="login" action="success.html" method="POST">
+  <form id="login" action="login.php" method="POST">
     <input class='text' type='username' name='username' placeholder='Username' required>
     <br>
     <input class='text' name='pwd'  type='password' placeholder='Password' required>
@@ -23,38 +21,5 @@
     <input class='button' type='submit' name="loginbutton" value='Login'>
   </form>
 </div>
-  
-  <p id="1"></p>
-    <script type="text/javascript">
-
-    var invalid=0;
-
-    function validation(){
-        invalid=0;
-        if(document.getElementByID("username").value=="" || document.getElementByID("username").value.length>=15){
-        document.getElementByID("1").innerHTML="Username kosong atau tidak berlaku. Mohon coba lagi!";
-        invalid+=1;
-    }
-    else{
-        document.getElementByID("1").innerHTML="";
-    }
-        if(document.getElementByID("username").value=="" || document.getElementByID("username").value.length>=15){
-        document.getElementByID("1").innerHTML="Username kosong atau tidak berlaku. Mohon coba lagi!";
-        invalid+=1;
-    }
-
-     if(document.getElementByID("username").value=="" || document.getElementByID("username").value.length>=15){
-        document.getElementByID("1").innerHTML="Username kosong atau tidak berlaku. Mohon coba lagi!";
-        invalid+=1;
-    }
-    
-    if(invalid!=0){
-        return false;
-    }else{
-        return true;
-    }
-    
-
-    }</script>
     </body>
 </html>
